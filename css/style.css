@@ -9,6 +9,9 @@ a{
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+/* banner part css start  */
+
 .banner{
     display: flex;
 }
@@ -45,16 +48,17 @@ body{
 .banner_img img{
     width: 70%;
     margin-left: 5%;
-    /* margin-left: 10%; */
 }
 
-/* banner part css end */
+/*banner part css end */
 
 /* about part css start  */
 #about{
     display: flex;
     background-image: url(../images/shapes/7.png);
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding-top: 30px;
     margin-top: 100px;
 }
@@ -80,7 +84,7 @@ body{
 }
 .about_con p{
     line-height: 28px;
-    padding-bottom: 100px;
+    padding-bottom: 60px;
 }
 
 .about_con a{
@@ -133,5 +137,109 @@ body{
     font-size: 21px;
     padding-top: 8px;
     padding-bottom: 18px;
+    
+}
+.my_recipie_card p{
+    color: #5D6978;
 }
 /* my recipies part css end  */
+
+/* order part css start  */
+#order{
+    margin-top: 100px;
+    background-image: url(../images/why/bg1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0 0 150px
+    
+}
+.make_order{
+    margin-left: 5%;
+    color: #fff;
+}
+.make_order h1{
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 88px;
+    color: #fff;
+    margin-bottom: 28px;
+    padding-top: 100px;
+}
+.discount_50{
+    color: orange;
+}
+.make_order h4{
+    padding-bottom: 70px;
+}
+.make_order a{
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 15px 40px;
+    border-radius: 40px;
+    color: white;
+    font-weight: 700;
+    margin-top: 10px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    
+}
+/* order part css end  */
+
+/* choose us part css start  */
+#why_peaople{
+    margin-top: 100px;
+}
+
+#why_peaople p{
+    text-align: center;
+    padding-bottom: 20px;
+}
+#why_peaople h1{
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+.choose{
+    color: orange;
+}
+
+.choose_box{
+    display: flex;
+    margin-top: 40px;
+}
+
+.discount{
+    width: 25%;
+    margin-left: 5%;
+    text-align:center;
+}
+.discount p{
+    color: #5D6978;
+    padding-top: 10px;
+}
+/* choose us part css end  */
+
+/* footer part css code start  */
+footer{
+    background-color: black;
+    margin-top: 50px;
+    padding: 40px 0 60px;
+}
+.footer_con{
+    text-align: center;
+    color: #fff;
+}
+.footer_con h3{
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: gray;
+}
+.footer_con h3 span{
+    color: orange;
+}\
+.footer_con p{
+    color: #5D6978;
+}
