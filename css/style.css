@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+
+}
+.banner{
+    display: flex;
+}
+.banner_con{
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 100px;
+}
+.banner_con .meet{
+    color: orange;
+}
+.banner_con h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+   
+}
+.banner_con p{
+ color: #555555;
+ font-size: 20px;
+ padding-bottom: 40px;
+}
+.banner_con a{
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 15px 20px;
+    border-radius: 40px;
+    color: white;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.banner_img{
+    width: 50%;
+}
+.banner_img img{
+    width: 70%;
+    margin-left: 5%;
+    /* margin-left: 10%; */
+}
